@@ -7,7 +7,6 @@
 
 import UIKit
 
-//Checking again
 
 
 
@@ -17,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        //check3
+        
         
     }
 
