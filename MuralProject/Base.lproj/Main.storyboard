@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q8v-sU-tMj">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hersey" translatesAutoresizingMaskIntoConstraints="NO" id="Q8v-sU-tMj">
                                 <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -46,6 +46,15 @@
                     <view key="view" contentMode="scaleToFill" id="khq-2T-1SJ">
                         <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ViewConbtroller 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZQ-qB-YKD">
+                                <rect key="frame" x="384" y="446" width="134" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="BKe-JT-T3s"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -62,6 +71,15 @@
                     <view key="view" contentMode="scaleToFill" id="lQh-j8-XPb">
                         <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="View Controller 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSD-2M-qct">
+                                <rect key="frame" x="384" y="449" width="131" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="nVb-Hi-gh8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -71,10 +89,10 @@
             </objects>
             <point key="canvasLocation" x="2444" y="-646"/>
         </scene>
-        <!--View Controller-->
+        <!--Four Image View View Controller-->
         <scene sceneID="a51-Fj-oJs">
             <objects>
-                <viewController id="spX-Fl-90Z" sceneMemberID="viewController">
+                <viewController id="spX-Fl-90Z" customClass="FourImageViewViewController" customModule="MuralProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zf2-Kd-sAp">
                         <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,6 +103,7 @@
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="aJs-J2-Jdu" appends="YES" id="bSd-f9-pGV"/>
+                                    <outletCollection property="gestureRecognizers" destination="uAV-Yj-f2n" appends="YES" id="IOf-bB-i4a"/>
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hersey" translatesAutoresizingMaskIntoConstraints="NO" id="2m5-4x-gn9">
@@ -93,6 +112,7 @@
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="dje-mj-67W" appends="YES" id="tzp-HU-G1F"/>
+                                    <outletCollection property="gestureRecognizers" destination="IiF-T7-Xf7" appends="YES" id="Gvd-Po-VvM"/>
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hersey" translatesAutoresizingMaskIntoConstraints="NO" id="MwT-e6-Gy4">
@@ -101,6 +121,7 @@
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="LNy-u5-1Zw" appends="YES" id="KPe-5Z-cNW"/>
+                                    <outletCollection property="gestureRecognizers" destination="LrK-Xx-KrE" appends="YES" id="0Lh-Ze-C0V"/>
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hersey" translatesAutoresizingMaskIntoConstraints="NO" id="I51-Bx-lwr">
@@ -109,6 +130,7 @@
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="nCm-ng-jtZ" appends="YES" id="ltE-6v-DTH"/>
+                                    <outletCollection property="gestureRecognizers" destination="kpc-WW-iyR" appends="YES" id="3tO-PT-zwD"/>
                                 </connections>
                             </imageView>
                         </subviews>
@@ -116,6 +138,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="p8t-pr-tIr"/>
+                    <connections>
+                        <outlet property="FirstImageView" destination="GtN-31-JJi" id="lCj-q9-X1T"/>
+                        <outlet property="FourthImageView" destination="MwT-e6-Gy4" id="gqy-wb-YGS"/>
+                        <outlet property="SecondImageView" destination="I51-Bx-lwr" id="k3C-8p-qXN"/>
+                        <outlet property="ThirdImageView" destination="2m5-4x-gn9" id="7uL-zr-EQj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0wQ-qO-a7M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="aJs-J2-Jdu" userLabel="Tap Gesture Recognizer 1">
@@ -138,6 +166,26 @@
                         <segue destination="2nB-8X-dNX" kind="show" id="G7p-Gy-CG2"/>
                     </connections>
                 </tapGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="uAV-Yj-f2n" userLabel="Pan Gesture Recognizer 1">
+                    <connections>
+                        <action selector="pangesture1:" destination="spX-Fl-90Z" id="gcs-Tj-ltS"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="kpc-WW-iyR" userLabel="Pan Gesture Recognizer 2">
+                    <connections>
+                        <action selector="pangesture2:" destination="spX-Fl-90Z" id="XI0-er-XyO"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="IiF-T7-Xf7" userLabel="Pan Gesture Recognizer 3">
+                    <connections>
+                        <action selector="pangesture3:" destination="spX-Fl-90Z" id="DZU-Vx-gtE"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="LrK-Xx-KrE" userLabel="Pan Gesture Recognizer 4">
+                    <connections>
+                        <action selector="pangesture4:" destination="spX-Fl-90Z" id="IGM-Tm-Jax"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1484.4444444444443" y="81.666666666666671"/>
         </scene>
@@ -148,6 +196,15 @@
                     <view key="view" contentMode="scaleToFill" id="w4a-QX-0kT">
                         <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ViewController 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oco-H2-vvu">
+                                <rect key="frame" x="384" y="501" width="127" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="uQF-1R-gmJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -164,6 +221,15 @@
                     <view key="view" contentMode="scaleToFill" id="20W-s5-JdE">
                         <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="viewController4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTK-SQ-0wi">
+                                <rect key="frame" x="384" y="447" width="120" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="OBb-XS-ZZx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
