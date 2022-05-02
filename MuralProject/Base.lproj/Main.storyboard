@@ -97,7 +97,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hersey" translatesAutoresizingMaskIntoConstraints="NO" id="GtN-31-JJi">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_1303" translatesAutoresizingMaskIntoConstraints="NO" id="GtN-31-JJi">
                                 <rect key="frame" x="0.0" y="389" width="199" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -106,7 +106,7 @@
                                     <outletCollection property="gestureRecognizers" destination="uAV-Yj-f2n" appends="YES" id="IOf-bB-i4a"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hersey" translatesAutoresizingMaskIntoConstraints="NO" id="2m5-4x-gn9">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_1305" translatesAutoresizingMaskIntoConstraints="NO" id="2m5-4x-gn9">
                                 <rect key="frame" x="404" y="389" width="199" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -115,7 +115,7 @@
                                     <outletCollection property="gestureRecognizers" destination="IiF-T7-Xf7" appends="YES" id="Gvd-Po-VvM"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hersey" translatesAutoresizingMaskIntoConstraints="NO" id="MwT-e6-Gy4">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_1306" translatesAutoresizingMaskIntoConstraints="NO" id="MwT-e6-Gy4">
                                 <rect key="frame" x="611" y="389" width="199" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -124,7 +124,7 @@
                                     <outletCollection property="gestureRecognizers" destination="LrK-Xx-KrE" appends="YES" id="0Lh-Ze-C0V"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hersey" translatesAutoresizingMaskIntoConstraints="NO" id="I51-Bx-lwr">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_1304" translatesAutoresizingMaskIntoConstraints="NO" id="I51-Bx-lwr">
                                 <rect key="frame" x="197" y="389" width="199" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -259,6 +259,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="IMG_1303" width="2590" height="2149"/>
+        <image name="IMG_1304" width="2331" height="1882"/>
+        <image name="IMG_1305" width="2374" height="1990"/>
+        <image name="IMG_1306" width="2367" height="1983"/>
         <image name="hersey" width="400" height="400"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
